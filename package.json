@@ -1,9 +1,11 @@
 {
   "name": "my-weather-app",
+  "homepage": "https://K-0606.github.io/my-weather-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
@@ -12,6 +14,7 @@
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
+    "gh-pages": "^6.3.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "suncalc": "^1.9.0"

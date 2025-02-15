@@ -4,5 +4,6 @@ import svgr from "vite-plugin-svgr"
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: 'my-weather-app',
   plugins: [react(), svgr()], // 將兩個插件放在同一個陣列中
 })
